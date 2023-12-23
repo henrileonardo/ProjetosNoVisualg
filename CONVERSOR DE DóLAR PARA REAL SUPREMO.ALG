@@ -1,8 +1,8 @@
-algoritmo "semnome"
+algoritmo "Conversor de dólar para real supremo"
 var
 
-   dol , valor , valorfinal : real
-   cont , N , : inteiro
+   dol , valor , valorfinal , S : real
+   cont , N : inteiro
 
 inicio
 
@@ -20,7 +20,7 @@ inicio
                     cont <- cont + 1
                     S <- S + valorfinal
            fimenquanto
-           escreval ("Ao todo, foram registrados " , N , " valores. totalizando US$" , S )
+           escreval ("Ao todo, foram registrados " , N , " valores. totalizando R$" , S )
       senao
          escreval ("Liste o valor em US$ que você deseja converter para R$ ")
                     leia (valor)
